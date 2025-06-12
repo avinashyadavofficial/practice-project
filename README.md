@@ -19,12 +19,11 @@ This is a beginner-friendly Angular project designed to manage student records w
 
 ## 🛠️ Tech Stack
 
-- Angular 17+
+- Angular 16+
 - TypeScript
 - HTML/CSS
 - RxJS
-- Local Storage (for persistence)
-- Jasmine/Karma for testing
+- Local Storage 
 
 ---
 
