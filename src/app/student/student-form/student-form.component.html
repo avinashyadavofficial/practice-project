@@ -1,0 +1,22 @@
+<h3>Add Student</h3>
+<!-- <input [(ngModel)]="studentName" placeholder="Enter student name"> -->
+<!-- ngModel is 2 way binding -->
+<!-- <button (click)="submit()">Submit Name</button> -->
+<!-- click is event binding -->
+
+<!-- Implementing reactive forms -->
+<form [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+    <input type="text" formControlName="name" placeholder="Enter student name">
+    <p *ngIf="studentForm.get('name')?.invalid && studentForm.get('name')?.touched">
+        Name is req and must be at least 3 character
+    </p>
+    <p *ngIf="studentForm.get('name')?.errors?.['pattern']"> Name must be alphabet only</p>
+    <br>
+     <input type="number" formControlName="age" placeholder="Enter student age">
+    <p *ngIf="studentForm.get('age')?.invalid && studentForm.get('age')?.touched">
+        Age is required and must be a positive number
+    </p>
+    <p *ngIf="studentForm.get('age')?.errors?.['pattern']"> Age must be a number</p>
+    <br>
+    <button type="submit" [disabled]="studentForm.invalid">Add Student</button>
+</form>

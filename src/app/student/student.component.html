@@ -1,0 +1,14 @@
+<h2>Student Management</h2>
+<nav>
+  <a routerLink="list">List</a> |
+  <a routerLink="form">Add</a>
+</nav>
+<router-outlet></router-outlet>
+
+<button (click)="toggleList()">Toggle Student List</button>
+<!-- <button (click)="clearFormFromParent()">Clear Form From Parent</button> -->
+<app-student-form (newStudent)="addStudent($event)" (studentAge)="findAge($event)"></app-student-form>
+<app-student-list *ngIf="showList" [students]="studentList"></app-student-list>
+<button (click)="clearStudents()">Clear Students</button>
+
+<router-outlet></router-outlet>
