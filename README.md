@@ -13,7 +13,6 @@ This is a beginner-friendly Angular project designed to manage student records w
 - ✨ **Shared Module** with custom directive and pipe
 - 🧠 **HighlightDirective** – highlights elements on interaction
 - 🔁 **ReverseNamePipe** – displays names in reversed form
-- 🧪 **Unit Testing** setup for components and services
 - 🗂️ Organized Angular modular structure
 
 ---
