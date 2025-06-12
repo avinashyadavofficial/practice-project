@@ -1,27 +1,64 @@
-# MyLearningApp
+# 🧑‍🎓 Student Management App - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+This is a beginner-friendly Angular project designed to manage student records with basic CRUD functionality using **Reactive Forms**, **Routing**, **Custom Pipes**, **Directives**, and **Local Storage**.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Features
 
-## Code scaffolding
+- 🏠 **Home Page** with welcome message
+- 📖 **About Page** with project details
+- ➕ **Add Student** with Reactive Forms & validations
+- 📋 **Student List** dynamically updated from local storage
+- ✨ **Shared Module** with custom directive and pipe
+- 🧠 **HighlightDirective** – highlights elements on interaction
+- 🔁 **ReverseNamePipe** – displays names in reversed form
+- 🧪 **Unit Testing** setup for components and services
+- 🗂️ Organized Angular modular structure
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🛠️ Tech Stack
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular 17+
+- TypeScript
+- HTML/CSS
+- RxJS
+- Local Storage (for persistence)
+- Jasmine/Karma for testing
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## 📦 Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+git clone https://github.com/avinashyadavofficial/practice-project.git
+cd student-management-app
+npm install
+ng serve
+```
 
-## Further help
+Then open browser at: [http://localhost:4200](http://localhost:4200)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## 🧠 Future Enhancements
+
+- Add student edit/delete features
+- Integrate a backend API
+- Add search & filter
+- Use `NgRx` for state management
+
+---
+
+## 👨‍💻 Author
+
+**Avinash Yadav**  
+Built with ❤️ as part of Angular learning journey.
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
